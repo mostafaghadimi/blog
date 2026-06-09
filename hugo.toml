@@ -55,7 +55,7 @@ defaultContentLanguageInSubdir = false
 
   [[params.socialIcons]]
     name = "rss"
-    url = "/blog/index.xml"
+    url = "/index.xml"
 
 [taxonomies]
   tag = "tags"
@@ -66,19 +66,19 @@ defaultContentLanguageInSubdir = false
   [[menu.main]]
     identifier = "tags"
     name = "برچسب‌ها"
-    url = "/blog/tags/"
+    url = "/tags/"
     weight = 10
 
   [[menu.main]]
     identifier = "archives"
     name = "آرشیو"
-    url = "/blog/archives/"
+    url = "/archives/"
     weight = 20
 
   [[menu.main]]
     identifier = "search"
     name = "جستجو"
-    url = "/blog/search/"
+    url = "/search/"
     weight = 30
 
 [markup]
