@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mostafaghadimi.github.io/blog/sitemap.xml

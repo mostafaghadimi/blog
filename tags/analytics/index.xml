@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Analytics on مصطفی قدیمی — وبلاگ</title>
+    <link>https://mostafaghadimi.github.io/blog/tags/analytics/</link>
+    <description>Recent content in Analytics on مصطفی قدیمی — وبلاگ</description>
+    <generator>Hugo</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mostafaghadimi.github.io/blog/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>اهمیت مهندسی داده برای مدیران و صاحبان کسب‌وکار — قسمت ۱</title>
+      <link>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-1/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-1/</guid>
+      <description>چرا در شرایط اقتصادی فعلی ایران، صاحبان کسب‌وکار باید قبل از استخدام هر تحلیل‌گری، برای استفاده از داده اول به فکر جذب «مهندس داده» باشند؟</description>
+    </item>
+  </channel>
+</rss>
