@@ -1,0 +1,23 @@
+@import url('https://cdn.jsdelivr.net/npm/vazir-font@27.2.2/dist/font-face.css');
+
+body,
+p, li, a, span, div,
+h1, h2, h3, h4, h5, h6,
+blockquote, td, th,
+.post-title, .post-description,
+.entry-header, .entry-content,
+.nav, .menu, .breadcrumbs,
+button, input, textarea {
+  font-family: 'Vazir', sans-serif !important;
+}
+
+/* comfortable line-height for Persian text */
+body {
+  line-height: 2;
+}
+
+/* tighten line-height back for code blocks */
+pre, code, kbd, samp {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace !important;
+  line-height: 1.6;
+}
