@@ -1,0 +1,90 @@
+baseURL = "https://mostafaghadimi.github.io/blog/"
+title = "مصطفی قدیمی — وبلاگ"
+paginate = 10
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+defaultContentLanguage = "fa"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.fa]
+    direction = "rtl"
+    label = "فارسی"
+    locale = "fa-IR"
+    weight = 1
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# Enable JSON index for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  author = "مصطفی قدیمی"
+  description = "درباره‌ی مهندسی داده، هوش مصنوعی، پایتون و سیستم‌های توزیع‌شده می‌نویسم."
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "سلام، من مصطفی‌ام 👋"
+    Content = "مهندس داده و سازنده‌ی عامل‌های هوش مصنوعی. درباره‌ی پایپ‌لاین‌های استریمینگ، عامل‌های LangGraph، پایتون و سیستم‌های توزیع‌شده می‌نویسم — چیزهایی که عملاً روشون کار می‌کنم."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/mostafaghadimi"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/mostafaghadimi"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/blog/index.xml"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "برچسب‌ها"
+    url = "/blog/tags/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "آرشیو"
+    url = "/blog/archives/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "search"
+    name = "جستجو"
+    url = "/blog/search/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = "github-dark"
