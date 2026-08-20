@@ -1,19 +1,12 @@
 baseURL = "https://mostafaghadimi.github.io/blog/"
-title = "مصطفی قدیمی — وبلاگ"
-paginate = 10
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
+paginate = 10
+
 defaultContentLanguage = "fa"
 defaultContentLanguageInSubdir = false
-
-[languages]
-  [languages.fa]
-    direction = "rtl"
-    label = "فارسی"
-    locale = "fa-IR"
-    weight = 1
 
 [minify]
   disableXML = true
@@ -23,9 +16,8 @@ defaultContentLanguageInSubdir = false
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# ---- shared params (same for every language) ----
 [params]
-  author = "مصطفی قدیمی"
-  description = "درباره‌ی مهندسی داده، هوش مصنوعی، پایتون و سیستم‌های توزیع‌شده می‌نویسم."
   defaultTheme = "auto"
   disableThemeToggle = false
   ShowReadingTime = true
@@ -40,10 +32,6 @@ defaultContentLanguageInSubdir = false
   ShowAllPagesInArchive = true
   ShowPageNums = true
   comments = false
-
-  [params.homeInfoParams]
-    Title = "سلام، من مصطفی‌ام 👋"
-    Content = "مهندس داده و سازنده‌ی عامل‌های هوش مصنوعی. درباره‌ی پایپ‌لاین‌های استریمینگ، عامل‌های LangGraph، پایتون و سیستم‌های توزیع‌شده می‌نویسم — چیزهایی که عملاً روشون کار می‌کنم."
 
   [[params.socialIcons]]
     name = "github"
@@ -62,25 +50,6 @@ defaultContentLanguageInSubdir = false
   category = "categories"
   author = "authors"
 
-[menu]
-  [[menu.main]]
-    identifier = "tags"
-    name = "برچسب‌ها"
-    url = "/tags/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "archives"
-    name = "آرشیو"
-    url = "/archives/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "search"
-    name = "جستجو"
-    url = "/search/"
-    weight = 30
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -88,3 +57,63 @@ defaultContentLanguageInSubdir = false
   [markup.highlight]
     noClasses = false
     style = "github-dark"
+
+# ---- languages ----
+[languages]
+  [languages.fa]
+    label = "فارسی"
+    locale = "fa-IR"
+    direction = "rtl"
+    weight = 1
+    title = "مصطفی قدیمی — وبلاگ"
+    [languages.fa.params]
+      author = "مصطفی قدیمی"
+      description = "درباره‌ی مهندسی داده، هوش مصنوعی، پایتون و سیستم‌های توزیع‌شده می‌نویسم."
+      [languages.fa.params.homeInfoParams]
+        Title = "سلام، من مصطفی‌ام 👋"
+        Content = "مهندس داده و سازنده‌ی عامل‌های هوش مصنوعی. درباره‌ی پایپ‌لاین‌های استریمینگ، عامل‌های LangGraph، پایتون و سیستم‌های توزیع‌شده می‌نویسم — چیزهایی که عملاً روشون کار می‌کنم."
+    [languages.fa.menu]
+      [[languages.fa.menu.main]]
+        identifier = "tags"
+        name = "برچسب‌ها"
+        url = "/tags/"
+        weight = 10
+      [[languages.fa.menu.main]]
+        identifier = "archives"
+        name = "آرشیو"
+        url = "/archives/"
+        weight = 20
+      [[languages.fa.menu.main]]
+        identifier = "search"
+        name = "جستجو"
+        url = "/search/"
+        weight = 30
+
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    direction = "ltr"
+    weight = 2
+    title = "Mostafa Ghadimi — Blog"
+    [languages.en.params]
+      author = "Mostafa Ghadimi"
+      description = "I write about data engineering, AI, Python, and distributed systems."
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm Mostafa 👋"
+        Content = "Data engineer and builder of AI agents. I write about streaming pipelines, LangGraph agents, Python, and distributed systems — the things I actually work on."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "archives"
+        name = "Archive"
+        url = "/archives/"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search/"
+        weight = 30
