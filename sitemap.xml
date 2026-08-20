@@ -1,71 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/ai/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/business/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/categories/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/data-engineering/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/posts/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/team/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/technical-debt/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-3/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/categories/%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-%D8%AF%D8%A7%D8%AF%D9%87/</loc>
-    <lastmod>2026-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/posts/data-first-vs-ai-first/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/metrics/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/startups/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/categories/%D8%AF%D8%A7%D8%AF%D9%87/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/iran/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/outsourcing/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-2/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/tags/analytics/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-1/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/archives/</loc>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/authors/</loc>
-  </url><url>
-    <loc>https://mostafaghadimi.github.io/blog/search/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<sitemap>
+			<loc>https://mostafaghadimi.github.io/blog/fa/sitemap.xml</loc>
+			
+				<lastmod>2026-08-17T00:00:00+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>https://mostafaghadimi.github.io/blog/en/sitemap.xml</loc>
+			
+		</sitemap>
+	
+</sitemapindex>

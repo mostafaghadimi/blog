@@ -1,22 +1,40 @@
 @import url('https://cdn.jsdelivr.net/npm/vazir-font@27.2.2/dist/font-face.css');
 
-body,
-p, li, a, span, div,
-h1, h2, h3, h4, h5, h6,
-blockquote, td, th,
-.post-title, .post-description,
-.entry-header, .entry-content,
-.nav, .menu, .breadcrumbs,
-button, input, textarea {
+/* Persian (RTL) pages: use Vazir. English pages keep the theme default. */
+html[dir="rtl"] body,
+html[dir="rtl"] p,
+html[dir="rtl"] li,
+html[dir="rtl"] a,
+html[dir="rtl"] span,
+html[dir="rtl"] div,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] blockquote,
+html[dir="rtl"] td,
+html[dir="rtl"] th,
+html[dir="rtl"] .post-title,
+html[dir="rtl"] .post-description,
+html[dir="rtl"] .entry-header,
+html[dir="rtl"] .entry-content,
+html[dir="rtl"] .nav,
+html[dir="rtl"] .menu,
+html[dir="rtl"] .breadcrumbs,
+html[dir="rtl"] button,
+html[dir="rtl"] input,
+html[dir="rtl"] textarea {
   font-family: 'Vazir', sans-serif !important;
 }
 
 /* comfortable line-height for Persian text */
-body {
+html[dir="rtl"] body {
   line-height: 2;
 }
 
-/* tighten line-height back for code blocks */
+/* code always monospace, regardless of language */
 pre, code, kbd, samp {
   font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace !important;
   line-height: 1.6;
