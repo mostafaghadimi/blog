@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technical-Debt on مصطفی قدیمی — وبلاگ</title>
+    <link>https://mostafaghadimi.github.io/blog/fa/tags/technical-debt/</link>
+    <description>Recent content in Technical-Debt on مصطفی قدیمی — وبلاگ</description>
+    <generator>Hugo</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mostafaghadimi.github.io/blog/fa/tags/technical-debt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>اهمیت مهندسی داده برای مدیران و صاحبان کسب‌وکار — قسمت ۳</title>
+      <link>https://mostafaghadimi.github.io/blog/fa/posts/data-engineering-importance-3/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://mostafaghadimi.github.io/blog/fa/posts/data-engineering-importance-3/</guid>
+      <description>در دوران گذار به هوش‌واره، چه چالش‌های تازه‌ای سر راه تیم‌های داده سبز شده و چطور می‌شه بدون افتادن در دام بدهی فنی مدیریت‌شون کرد؟</description>
+    </item>
+  </channel>
+</rss>
