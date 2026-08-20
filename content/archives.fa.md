@@ -1,6 +1,6 @@
 ---
-title: "Archive"
+title: "آرشیو"
 layout: "archives"
-url: "/archives/"
+url: "/fa/archives/"
 summary: "archives"
 ---

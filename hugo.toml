@@ -5,7 +5,7 @@ buildDrafts = false
 buildFuture = false
 paginate = 10
 
-defaultContentLanguage = "fa"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [minify]
@@ -64,14 +64,14 @@ defaultContentLanguageInSubdir = false
     label = "فارسی"
     locale = "fa-IR"
     direction = "rtl"
-    weight = 1
+    weight = 2
     title = "مصطفی قدیمی — وبلاگ"
     [languages.fa.params]
       author = "مصطفی قدیمی"
       description = "درباره‌ی مهندسی داده، هوش مصنوعی، پایتون و سیستم‌های توزیع‌شده می‌نویسم."
       [languages.fa.params.homeInfoParams]
-        Title = "سلام، من مصطفی‌ام 👋"
-        Content = "مهندس داده و سازنده‌ی عامل‌های هوش مصنوعی. درباره‌ی پایپ‌لاین‌های استریمینگ، عامل‌های LangGraph، پایتون و سیستم‌های توزیع‌شده می‌نویسم — چیزهایی که عملاً روشون کار می‌کنم."
+        Title = "سلام، مصطفی‌ام 👋"
+        Content = "مهندس داده‌ام و این‌جا از چیزهایی می‌نویسم که هر روز باهاشون سر و کله می‌زنم — پایپ‌لاین‌های داده، ایجنت‌های هوش مصنوعی، پایتون و سیستم‌های توزیع‌شده. نه تئوری خشک؛ همون چیزهایی که واقعاً تجربه‌شون کرده‌ام و ازشون درس گرفته‌ام."
     [languages.fa.menu]
       [[languages.fa.menu.main]]
         identifier = "tags"
@@ -93,7 +93,7 @@ defaultContentLanguageInSubdir = false
     label = "English"
     locale = "en-US"
     direction = "ltr"
-    weight = 2
+    weight = 1
     title = "Mostafa Ghadimi — Blog"
     [languages.en.params]
       author = "Mostafa Ghadimi"
