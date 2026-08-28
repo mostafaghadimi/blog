@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Outsourcing on Mostafa Ghadimi — Blog</title>
+    <link>https://mostafaghadimi.github.io/blog/tags/outsourcing/</link>
+    <description>Recent content in Outsourcing on Mostafa Ghadimi — Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mostafaghadimi.github.io/blog/tags/outsourcing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Data Engineering Matters for Managers and Business Owners — Part 2</title>
+      <link>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-2/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://mostafaghadimi.github.io/blog/posts/data-engineering-importance-2/</guid>
+      <description>The practical challenges of building a data team in Iran&amp;#39;s business environment, and outsourcing as an alternative.</description>
+    </item>
+  </channel>
+</rss>
