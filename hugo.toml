@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = false
 
   [[params.socialIcons]]
     name = "rss"
-    url = "/index.xml"
+    url = "https://mostafaghadimi.github.io/blog/index.xml"
 
 [taxonomies]
   tag = "tags"
@@ -76,17 +76,17 @@ defaultContentLanguageInSubdir = false
       [[languages.fa.menu.main]]
         identifier = "tags"
         name = "برچسب‌ها"
-        url = "/tags/"
+        url = "https://mostafaghadimi.github.io/blog/fa/tags/"
         weight = 10
       [[languages.fa.menu.main]]
         identifier = "archives"
         name = "آرشیو"
-        url = "/archives/"
+        url = "https://mostafaghadimi.github.io/blog/fa/archives/"
         weight = 20
       [[languages.fa.menu.main]]
         identifier = "search"
         name = "جستجو"
-        url = "/search/"
+        url = "https://mostafaghadimi.github.io/blog/fa/search/"
         weight = 30
 
   [languages.en]
